@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50% , 50%);
+    text-align: center;
+}
+.container table{
+    border: 1px solid white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.container table input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 340px;
+    height: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.container table input::placeholder{
+    color: rgba(255, 255, 255, 0.549);
+    
+}
+.container table i{
+    cursor: pointer;
+    color: white;
+}
+.container ul{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    text-align: left;
+}
+.container ul li{
+    list-style: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 13px;
+    border-bottom: 1px solid rgba(137, 43, 226, 0.335);
+}
